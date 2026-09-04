@@ -15,8 +15,8 @@ jobs:
       - name: Set up Java 
         uses: actions/setup-java@v4
         with: 
-          distribution: temurin 
-          java-verison: "17"
+          distribution: 'temurin'
+          java-verison: '.tool-versions'
 
       - name: Compile
         run: javac Calculator.java CalculatorTest.java
