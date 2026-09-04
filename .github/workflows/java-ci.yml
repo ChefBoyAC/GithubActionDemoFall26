@@ -19,7 +19,7 @@ jobs:
           java-verison: "17"
 
       - name: Compile
-      - run: javac Calculator.java CalculatorTest.java
+        run: javac Calculator.java CalculatorTest.java
 
       - name: Run tests
-      - run: java CalculatorTest
+        run: java CalculatorTest
